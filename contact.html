@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob Cabran — Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="home.html" class="logo">Home</a>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out — whether it's about a project, a question, or just to say hi!</p>
+
+    <div class="projects-grid">
+
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Email:</strong> <a href="mailto:ajcabran@fit.edu.ph">ajcabran@fit.edu.ph</a></p>
+        <p><strong>School:</strong> FEU Tech — Information Technology</p>
+        <p><strong>Location:</strong> Manila, Philippines</p>
+
+        <h3 style="margin-top:1.2rem;">Find Me Online</h3>
+        <div class="social-links">
+          <a href="https://github.com/ajcabran-eng" target="_blank" title="GitHub">🐈</a>
+          <a href="https://www.linkedin.com/in/jacob-cabran-b0bb80380/" target="_blank" title="LinkedIn">📧</a>
+          <a href="mailto:ajcabran@fit.edu.ph" title="Email">📋</a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+          <div class="form-success">Thanks! Your message has been noted. I'll get back to you soon.</div>
+        </form>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Jacob Cabran. <a href="contact.html">Contact</a></p>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
